@@ -1,0 +1,34 @@
+{
+  "release": {
+    "name": "fraud-inference-v12",
+    "image": "ghcr.io/ohjeffkuston/fraud-inference@sha256:1111111111111111111111111111111111111111111111111111111111111111",
+    "model": {
+      "uri": "s3://approved-models/fraud/model.onnx",
+      "revision": "version-9f31d2",
+      "digest": "sha256:2222222222222222222222222222222222222222222222222222222222222222"
+    }
+  },
+  "evidence": {
+    "image_signature": {
+      "verified": true,
+      "subject": "https://github.com/ohjeffkuston/ai-model-build/.github/workflows/release.yml@refs/heads/main"
+    },
+    "provenance": {
+      "verified": true,
+      "predicate_type": "https://slsa.dev/provenance/v1",
+      "builder_id": "https://github.com/actions/runner/github-hosted",
+      "artifact_digest": "sha256:1111111111111111111111111111111111111111111111111111111111111111",
+      "source_revision": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+    },
+    "model_attestation": {
+      "verified": true,
+      "artifact_digest": "sha256:2222222222222222222222222222222222222222222222222222222222222222"
+    },
+    "scan": {
+      "generated_at": "2026-11-05T12:00:00Z",
+      "critical": 0,
+      "high": 1,
+      "licenses": ["Apache-2.0", "MIT"]
+    }
+  }
+}

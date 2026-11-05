@@ -1,0 +1,9 @@
+{
+  "trusted_signer_subjects": ["https://github.com/ohjeffkuston/ai-model-build/.github/workflows/release.yml@refs/heads/main"],
+  "trusted_builders": ["https://github.com/actions/runner/github-hosted"],
+  "max_scan_age_hours": 24,
+  "max_critical_vulnerabilities": 0,
+  "max_high_vulnerabilities": 2,
+  "denied_licenses": ["AGPL-3.0-only", "SSPL-1.0"],
+  "ai_authority": "advisory-only"
+}
